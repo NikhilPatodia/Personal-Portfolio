@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch",
+    "start": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "tailwindcss": "^4.0.9"
+  }
+}
